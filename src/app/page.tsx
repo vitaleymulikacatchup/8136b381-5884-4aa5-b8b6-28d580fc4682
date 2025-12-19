@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -27,14 +27,14 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          logoText="Smakokota"
           navItems={[
-            { name: "Home", id: "home" },
+            { name: "Home", id: "hero" },
             { name: "About", id: "about" },
             { name: "Menu", id: "menu" },
-            { name: "Reservations", id: "reservations" },
+            { name: "Testimonials", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
+          brandName="Smakokota"
         />
       </div>
 
